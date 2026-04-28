@@ -3,29 +3,53 @@
 # 1. AI Policy & Safe experimentation
 
 1.1 Inadequate AI Policy (No single, enterprise‑approved policy defining acceptable AI and agentic use).
+
 1.2 Governance Misalignment (AI initiatives operate outside established security, risk, and architecture governance).
+
 1.3 Inadequate Compliance Mapping (AI use cases are not explicitly mapped to regulatory, legal, or privacy obligations).
+
 1.4 Undefined Risk Tolerance & Categorisation (No formal definition of acceptable AI autonomy, impact, or failure tolerance).
+
 1.5 Unmonitored AI experimentation (AI experiments occur without governance, security oversight, or lifecycle controls).
+
 1.6 Insecure Experiment Logging & Monitoring (Insufficient logging of AI behavior, data access, and tool usage during experimentation).
+
 1.7 Overly Permissive Permissions in Experimentation (Experimental AI systems inherit broad access to data, tools, or infrastructure).
+
 1.8 Experiment Output Data Leakage (AI experiment outputs lack data classification and leakage controls).
+
 1.9 Unauthorized / Prohibited Component Usage (Unapproved models, agents, plugins, or MCP components used during experimentation).
+
 1.10 Incomplete Threat Modeling for AI Systems (AI threat modeling does not cover agentic, prompt‑level, or tool‑centric risks).
+
 1.11 No formal definition of “Agent” vs “Assistant” vs “Workflow Automation” (policy ambiguity drives unsafe implementations). 
+
 1.12 Missing “agentic control plane” ownership model (who owns identity/orchestration/runtime enforcement). 
+
 1.13 Lack of policy for non-human identities (NHI) and agent credential lifecycle (creation, rotation, revocation). 
+
 1.14 No approved patterns for tool access (capability-based access, allowlists, scoped tokens) for experimentation. 
+
 1.15 Missing experimentation boundaries for “agent speed” actions (rate limits, spend limits, deletion/transfer limits). 
+
 1.16 Inadequate third‑party/OSS intake policy for agent frameworks (e.g., OpenClaw-like “weekend projects” entering enterprise). 
+
 1.17 No policy for persistent memory (retention, encryption, poisoning, right-to-delete, cross-context contamination). 
+
 1.18 Missing policy on prompt & system instruction hierarchy (who can author, approve, and deploy system prompts). 
+
 1.19 No explicit prohibition/approval workflow for “vibe-coded” security-critical agent infrastructure (unreviewed rapid builds). 
+
 1.20 Undefined policy for connecting to “agent marketplaces/extension stores” (malicious extensions/plugins risk). 
+
 1.21 No “data classification for prompts” standard (treat prompts as data transfers; DLP expectations). 
+
 1.22 Missing policy for MCP server governance in experiments (approval list, source validation, registry trust). 
+
 1.23 Lack of policy for cross-border processing (agent calling foreign-hosted tools/services without awareness).
+
 1.24 No policy for human-in-the-loop vs agent-only modes by risk tier (when approval is mandatory). 
+
 1.25 No “experiment kill-switch + rollback” requirement (containment plan for runaway agents).
 
 # 2. Code/ No Code: AI Asset Discovery
