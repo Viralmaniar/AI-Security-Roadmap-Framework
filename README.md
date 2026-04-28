@@ -1,6 +1,7 @@
 # AI-Security-Roadmap-Framework
 
 # 1. AI Policy & Safe experimentation
+``
 1.1 Inadequate AI Policy (No single, enterprise‑approved policy defining acceptable AI and agentic use).
 1.2 Governance Misalignment (AI initiatives operate outside established security, risk, and architecture governance).
 1.3 Inadequate Compliance Mapping (AI use cases are not explicitly mapped to regulatory, legal, or privacy obligations).
@@ -197,3 +198,4 @@
 7.19 No “agent incident response” runbooks (contain, rotate credentials, revoke tool access, preserve trails). 
 7.20 Missing lifecycle monitoring for end-of-life triggers (model deprecation, skill abandonment, orphaned identities).
 7.21 No automated rollback/containment triggers tied to policy (graduated response tiers for anomalies).
+``
