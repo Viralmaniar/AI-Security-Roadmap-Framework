@@ -1,7 +1,7 @@
 # AI-Security-Roadmap-Framework
 
 # 1. AI Policy & Safe experimentation
-``
+```
 1.1 Inadequate AI Policy (No single, enterprise‑approved policy defining acceptable AI and agentic use).
 1.2 Governance Misalignment (AI initiatives operate outside established security, risk, and architecture governance).
 1.3 Inadequate Compliance Mapping (AI use cases are not explicitly mapped to regulatory, legal, or privacy obligations).
@@ -27,7 +27,7 @@
 1.23 Lack of policy for cross-border processing (agent calling foreign-hosted tools/services without awareness).
 1.24 No policy for human-in-the-loop vs agent-only modes by risk tier (when approval is mandatory). 
 1.25 No “experiment kill-switch + rollback” requirement (containment plan for runaway agents).
-
+```
 # 2. Code/ No Code: AI Asset Discovery
 
 2.1 Incomplete Asset Inventory (AI models, agents, datasets, and platforms are not fully identified or catalogued).
