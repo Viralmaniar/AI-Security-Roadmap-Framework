@@ -1,5 +1,7 @@
 # AI-Security-Roadmap-Framework
 
+![Uploading image.png…]()
+
 # 1. AI Policy & Safe experimentation
 
 1.1 Inadequate AI Policy (No single, enterprise‑approved policy defining acceptable AI and agentic use).
